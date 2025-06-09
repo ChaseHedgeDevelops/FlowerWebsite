@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Head of the website, containts meta info to make the website responsive and links the CSS page -->
+
+<head>
+
+
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Flower Website</title>
+    <link rel="stylesheet" href="style.css">
+
+
+
+</head>
+
+<body>
+
+
+
+    <!-- this is the header (name of business, hero overlay)-->
+
+    <header class="hero">
+        <div class="overlay">
+        <h1>God, Flowers, Love</h1>
+        <button id="button" onclick="scrollToSection()">Click For More Info</button>
+        <script>
+            function scrollToSection() {
+            document.getElementById("about").scrollIntoView({ behavior: 'smooth' });
+                }
+        </script>
+        </div>
+    </header>
+
+
+    <main>
+        <!-- This is the mission statement and purpose of the website-->
+        <section id="about">
+            <h2>Mission Statement</h2>
+            <p> THis is just some filler text for now but this will be the mission statement of the business and why it exist blah blah blah balh balh balh ab lahlha ffefjk lk f fkfdkf l kdfdlkf l dfkldf
+                djf ldfldf kdklf          dljfldfj llk                sljflksdjfldfjlo fjl d. THis is just some filler text for now but this will be the mission statement of the business and why it exist blah blah blah balh balh balh ab lahlha ffefjk lk f fkfdkf l kdfdlkf l dfkldf
+                djf ldfldf kdklf          dljfldfj llk                sljflksdjfldfjlo fjl d.THis is just some filler text for now but this will be the mission statement of the business and why it exist blah blah blah balh balh balh ab lahlha ffefjk lk f fkfdkf l kdfdlkf l dfkldf
+                djf ldfldf kdklf          dljfldfj llk                sljflksdjfldfjlo fjl d.
+            </p>
+        </section>
+
+
+        <!-- Images to showcase the business-->
+        <section id="gallery">   
+            <h2>Gallery</h2>
+            <div class="img-grid">
+                <img src="Images/img1.jpg" alt="">
+                <img src="Images/img2.jpg" alt="">
+                <img src="Images/img3.jpg" alt="">
+            </div>
+
+
+        </section>
+    
+    </main>
+
+    <!--footer at the bottom of the page-->
+    <footer>
+        <p>&copy; 2025 Flower Business - <a href="contact.html">Contact Page</a></p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
