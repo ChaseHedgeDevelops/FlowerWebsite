@@ -248,7 +248,7 @@ h1 {
   }
 
   #contact-form {
-    height: 70vh;
+    height: 80vh;
     padding: 40px;
   }
 
@@ -257,7 +257,7 @@ h1 {
   }
 
   #contact-form textarea {
-    height: 250px;
+    height: 150px;
   }
 
   #contact-form label {
